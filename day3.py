@@ -8,9 +8,6 @@ def count_vowel(s):
       count+=1
   return count
 
-s=input("Please input a word:")
+s=input("Please input a phrase/word:")
 vowel_num=count_vowel(s)
-if vowel >1:
-  print(f"It has {vowel_num} vowels.")
-else:
-  print(f"It has {vowel_num} vowel.")  
+print(f"The phrase/word {s} has {vowel_num} vowel(s).")
