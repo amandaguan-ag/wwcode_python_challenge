@@ -9,7 +9,6 @@ def count_upper_and_lower(str):
       lower+=1
   return upper, lower
 
-str = input("Enter a string:")
+str = input("Enter a phrase/word:")
 upper, lower = count_upper_and_lower(str)
-print(f"Number of uppercase letter: {upper}")
-print(f"Number of lowercase letter: {lower}")
+print(f"There are {upper} uppercase and {lower} lowercase letter(s).")
